@@ -21,6 +21,14 @@ Compile the contracts using `npx hardhat compile`. The artifacts will be placed 
 ## Front-End
 
 `cd` into the `/app` directory and run `npm install`
+Make sure you enter your Alchemy Private Key in the .env file.
 
 To run the front-end application run `npm start` from the `/app` directory. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+# Server
+'cd' in to /app and run npm install express.
+After that run 'node server.js' to start the server.
+
+# Project
+
+You can deploy an Escrow Contracts to the Sopelia Test Network. After that you can approve this deployed contract. All contracts are saved localy in server.js and where shown as list in the web application. 
