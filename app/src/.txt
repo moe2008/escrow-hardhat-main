@@ -1,0 +1,15 @@
+try {
+        const response = await axios.post(
+          "http://localhost:3000/api/escrows",
+          escrow
+        );
+        const savedEscrow = response.data;
+        setEscrows([...escrows, savedEscrow]);
+      } catch (error) {
+        console.error("Fehler beim Speichern der Escrow:", error);
+      }
+  
+      setEscrows([...escrows, escrow]);
+    }
+
+    

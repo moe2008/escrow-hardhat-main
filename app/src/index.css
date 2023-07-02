@@ -1,0 +1,87 @@
+body {
+  background-color: #27374D;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #526D82;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin-bottom: 2rem;
+}
+
+.header {
+  font-size: xx-large;
+  color: #eee;
+}
+
+.contract, .existing-contracts {
+  display: inline-block;
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  margin-top: 1rem;
+}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.contract-header {
+  color:#526D82;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #526D82;
+  margin: 20px;
+}
+
+input[type="text"] {
+  padding: 6px;
+  font-size: 18px;
+}
+
+.button {
+  background-color: #526D82;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 9px 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.existing-contract ul {
+  padding: 10px;
+  margin: 20px;
+  background-color: #eee;
+}
+
+.existing-contract ul > li {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+}
+
+.existing-contract ul > li > div {
+  margin: 0 5px;
+}
+
+.existing-contract ul > li > :first-child {
+  font-weight: bold;
+}
+
+.existing-contract .complete {
+  color: #5aa75a;
+  text-align: center;
+}
